@@ -39,7 +39,7 @@ class MetalRenderContextViewController: UIViewController, MTKViewDelegate {
         
 //        self.inputTexture = try! MTKTextureLoader(device: self.metalView.device!).newTexture(cgImage: UIImage(named: "SampleImage")!.cgImage!, options: nil)
         
-        //self.inputTexture = try! MTKTextureLoader(device: self.metalView.device!).newTexture(with: UIImage(named: "SampleImage")!.cgImage!, options: nil)
+        self.inputTexture = try! MTKTextureLoader(device: self.metalView.device!).newTexture(with: UIImage(named: "SampleImage")!.cgImage!, options: nil)
     }
 
     func drawInMTKView(view: MTKView) {
