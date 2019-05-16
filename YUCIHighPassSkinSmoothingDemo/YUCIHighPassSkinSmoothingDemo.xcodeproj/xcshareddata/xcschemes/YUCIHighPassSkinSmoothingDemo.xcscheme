@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "1010"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7F5134AD8D3FC71D4B492EA521806E1E"
-               BuildableName = "YUCIHighPassSkinSmoothing.framework"
-               BlueprintName = "YUCIHighPassSkinSmoothing"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "9D03DDA91C4F520500F4D117"
+               BuildableName = "YUCIHighPassSkinSmoothingDemo.app"
+               BlueprintName = "YUCIHighPassSkinSmoothingDemo"
+               ReferencedContainer = "container:YUCIHighPassSkinSmoothingDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,6 +29,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9D03DDA91C4F520500F4D117"
+            BuildableName = "YUCIHighPassSkinSmoothingDemo.app"
+            BlueprintName = "YUCIHighPassSkinSmoothingDemo"
+            ReferencedContainer = "container:YUCIHighPassSkinSmoothingDemo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -42,15 +51,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7F5134AD8D3FC71D4B492EA521806E1E"
-            BuildableName = "YUCIHighPassSkinSmoothing.framework"
-            BlueprintName = "YUCIHighPassSkinSmoothing"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "9D03DDA91C4F520500F4D117"
+            BuildableName = "YUCIHighPassSkinSmoothingDemo.app"
+            BlueprintName = "YUCIHighPassSkinSmoothingDemo"
+            ReferencedContainer = "container:YUCIHighPassSkinSmoothingDemo.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,6 +70,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9D03DDA91C4F520500F4D117"
+            BuildableName = "YUCIHighPassSkinSmoothingDemo.app"
+            BlueprintName = "YUCIHighPassSkinSmoothingDemo"
+            ReferencedContainer = "container:YUCIHighPassSkinSmoothingDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

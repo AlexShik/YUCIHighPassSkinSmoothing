@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "1010"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7F5134AD8D3FC71D4B492EA521806E1E"
-               BuildableName = "YUCIHighPassSkinSmoothing.framework"
-               BlueprintName = "YUCIHighPassSkinSmoothing"
+               BlueprintIdentifier = "55473F4E9735F3B46D3F982F804B4020"
+               BuildableName = "Pods_YUCIHighPassSkinSmoothingDemo.framework"
+               BlueprintName = "Pods-YUCIHighPassSkinSmoothingDemo"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7F5134AD8D3FC71D4B492EA521806E1E"
-            BuildableName = "YUCIHighPassSkinSmoothing.framework"
-            BlueprintName = "YUCIHighPassSkinSmoothing"
+            BlueprintIdentifier = "55473F4E9735F3B46D3F982F804B4020"
+            BuildableName = "Pods_YUCIHighPassSkinSmoothingDemo.framework"
+            BlueprintName = "Pods-YUCIHighPassSkinSmoothingDemo"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -60,6 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "55473F4E9735F3B46D3F982F804B4020"
+            BuildableName = "Pods_YUCIHighPassSkinSmoothingDemo.framework"
+            BlueprintName = "Pods-YUCIHighPassSkinSmoothingDemo"
+            ReferencedContainer = "container:Pods.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
