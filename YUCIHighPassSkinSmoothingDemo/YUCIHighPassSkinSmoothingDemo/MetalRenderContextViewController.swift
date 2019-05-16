@@ -37,7 +37,7 @@ class MetalRenderContextViewController: UIViewController, MTKViewDelegate {
         self.commandQueue = device.makeCommandQueue()
         
         
-        self.inputTexture = try! MTKTextureLoader(device: self.metalView.device!).newTexture(cgImage: UIImage(named: "SampleImage")!.cgImage!, options: nil)
+//        self.inputTexture = try! MTKTextureLoader(device: self.metalView.device!).newTexture(cgImage: UIImage(named: "SampleImage")!.cgImage!, options: nil)
         
         //self.inputTexture = try! MTKTextureLoader(device: self.metalView.device!).newTexture(with: UIImage(named: "SampleImage")!.cgImage!, options: nil)
     }

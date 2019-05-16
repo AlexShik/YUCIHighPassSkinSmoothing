@@ -48,8 +48,8 @@ class DefaultRenderContextViewController: UIViewController,UIImagePickerControll
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.sourceImage = UIImage(named: "SampleImage")!
-        self.processImage()
+//        self.sourceImage = UIImage(named: "SampleImage")!
+//        self.processImage()
     }
     
     @IBAction func amountSliderTouchUp(_ sender: Any) {
